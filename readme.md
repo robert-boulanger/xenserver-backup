@@ -5,7 +5,7 @@
 ### First: Create a backup flag/field
 
 For every VM, in XenCenter go to the VM, Properties and add a User defined Test Field and name it "tobackup".
-If the VM should be included in backup enter a value true, otherwise something else.
+If the VM should be included in backup enter a value yes, otherwise no or something else.
 
 ### Second: Mount a backup directory 
 
@@ -43,7 +43,7 @@ chmod 755 *.sh
 ### Backup
 
 On the share you provided in step 2 the script will create a directory called NEW.
-While the VM's are running, it creates a snapshot in case the user defined field tobackup is set to true.
+While the VM's are running, it creates a snapshot in case the user defined field tobackup is set to yes.
 then it copies the snapshot to the backup directory and names it like the backed up VM is named 
 
 This happens for very VM
