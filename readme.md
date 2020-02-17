@@ -18,8 +18,8 @@ In Xenserver fin the UUID of your local Storage or wherever the VM's are install
 Replace in all scripts the RESTORE_UUID variable with this UUID
 
 ### Fourth: (optional) replace XSNAME variable
-If you like change the XSName variable in all scripts
-type ´echo $HOSTNAME´ if you have more Xenservers for example
+If you like change the XSName variable in all scripts.
+Type ´echo $HOSTNAME´, if you have more Xenservers for example.
 
 ### Fifth: deploy the scripts
 Transfer all scripts to the /root directory (home of root user) of your xenserver
@@ -33,7 +33,7 @@ which would run the backup every day at 20:10 o'clock
 
 ### Seventh: make all scripts runable
 
-don't forget to change the modus for the files
+don't forget to change the mode for the files
 ```
 chmod 755 *.sh
 ```

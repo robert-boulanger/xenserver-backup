@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# Written By: Mr Rahul Kumar
+# Originally By: Mr Rahul Kumar
 # Adopted By: Robert Boulanger
 # Created date: Jun 14, 2014
-# Last Updated: Mar 08, 2017
-# Version: 1.2.1
+# Last Updated: Feb 17, 2020
+# Version: 2.0.1
 # Visit: https://tecadmin.net/backup-running-virtual-machine-in-xenserver/
 #
 
